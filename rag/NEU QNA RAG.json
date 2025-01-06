@@ -1,12 +1,12 @@
 {
-  "id": "06d71a9e-c573-4fcd-b6e1-0ddb16518862",
+  "id": "08da4c9b-5259-4620-a20b-ae66c9e24d3e",
   "data": {
     "nodes": [
       {
         "data": {
           "description": "Get chat inputs from the Playground.",
           "display_name": "Chat Input",
-          "id": "ChatInput-fwrrY",
+          "id": "ChatInput-5Idbp",
           "node": {
             "base_classes": [
               "Message"
@@ -168,7 +168,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "What are the requirements around Letters of Recommendation?"
+                "value": "Will I be eligible to participate in co-op?"
               },
               "sender": {
                 "advanced": true,
@@ -270,7 +270,7 @@
         },
         "dragging": false,
         "height": 232,
-        "id": "ChatInput-fwrrY",
+        "id": "ChatInput-5Idbp",
         "position": {
           "x": 743.9745420290319,
           "y": 463.6977510207854
@@ -287,7 +287,7 @@
         "data": {
           "description": "Convert Data into plain text following a specified template.",
           "display_name": "Parse Data",
-          "id": "ParseData-lRnXz",
+          "id": "ParseData-wOWS7",
           "node": {
             "base_classes": [
               "Message"
@@ -406,7 +406,7 @@
         },
         "dragging": false,
         "height": 300,
-        "id": "ParseData-lRnXz",
+        "id": "ParseData-wOWS7",
         "position": {
           "x": 1606.0595305373527,
           "y": 751.4473696960695
@@ -423,7 +423,7 @@
         "data": {
           "description": "Create a prompt template with dynamic variables.",
           "display_name": "Prompt",
-          "id": "Prompt-1l8Ym",
+          "id": "Prompt-ESYRH",
           "node": {
             "base_classes": [
               "Message"
@@ -558,7 +558,7 @@
         },
         "dragging": false,
         "height": 429,
-        "id": "Prompt-1l8Ym",
+        "id": "Prompt-ESYRH",
         "position": {
           "x": 1977.9097981422992,
           "y": 640.5656416923846
@@ -575,7 +575,7 @@
         "data": {
           "description": "Split text into chunks based on specified criteria.",
           "display_name": "Split Text",
-          "id": "SplitText-ArvBT",
+          "id": "SplitText-lckTk",
           "node": {
             "base_classes": [
               "Data"
@@ -707,7 +707,7 @@
         },
         "dragging": false,
         "height": 471,
-        "id": "SplitText-ArvBT",
+        "id": "SplitText-lckTk",
         "position": {
           "x": 1683.4543896546102,
           "y": 1350.7871623588553
@@ -722,7 +722,7 @@
       },
       {
         "data": {
-          "id": "note-ij8du",
+          "id": "note-NlAsG",
           "node": {
             "description": "## 🐕 2. Retriever Flow\n\nThis flow answers questions with contextual data retrieved from the NEU Q&A vector database.",
             "display_name": "",
@@ -735,7 +735,7 @@
         },
         "dragging": false,
         "height": 324,
-        "id": "note-ij8du",
+        "id": "note-NlAsG",
         "position": {
           "x": 374.388314931542,
           "y": 486.18094072679895
@@ -755,7 +755,7 @@
       },
       {
         "data": {
-          "id": "OpenAIModel-TLbze",
+          "id": "OpenAIModel-q54rT",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -1085,7 +1085,7 @@
         },
         "dragging": false,
         "height": 668,
-        "id": "OpenAIModel-TLbze",
+        "id": "OpenAIModel-q54rT",
         "position": {
           "x": 2360.1432368563187,
           "y": 571.6712358167248
@@ -1102,7 +1102,7 @@
         "data": {
           "description": "Display a chat message in the Playground.",
           "display_name": "Chat Output",
-          "id": "ChatOutput-BYXHV",
+          "id": "ChatOutput-waOSM",
           "node": {
             "base_classes": [
               "Message"
@@ -1362,7 +1362,7 @@
         },
         "dragging": false,
         "height": 232,
-        "id": "ChatOutput-BYXHV",
+        "id": "ChatOutput-waOSM",
         "position": {
           "x": 2734.385670401691,
           "y": 808.2967893015561
@@ -1377,7 +1377,7 @@
       },
       {
         "data": {
-          "id": "AstraDB-teyLT",
+          "id": "AstraDB-V4087",
           "node": {
             "base_classes": [
               "Data",
@@ -1896,7 +1896,7 @@
         },
         "dragging": false,
         "height": 739,
-        "id": "AstraDB-teyLT",
+        "id": "AstraDB-V4087",
         "position": {
           "x": 1225.8151138573664,
           "y": 369.2727294042354
@@ -1911,7 +1911,7 @@
       },
       {
         "data": {
-          "id": "OpenAIEmbeddings-qhZLs",
+          "id": "OpenAIEmbeddings-jcI7q",
           "node": {
             "base_classes": [
               "Embeddings"
@@ -2387,7 +2387,7 @@
         },
         "dragging": false,
         "height": 319,
-        "id": "OpenAIEmbeddings-qhZLs",
+        "id": "OpenAIEmbeddings-jcI7q",
         "position": {
           "x": 825.435626932521,
           "y": 739.6327999745448
@@ -2402,7 +2402,7 @@
       },
       {
         "data": {
-          "id": "AstraDB-grytn",
+          "id": "AstraDB-u0l4o",
           "node": {
             "base_classes": [
               "Data",
@@ -2921,7 +2921,7 @@
         },
         "dragging": false,
         "height": 739,
-        "id": "AstraDB-grytn",
+        "id": "AstraDB-u0l4o",
         "position": {
           "x": 2090.491421890006,
           "y": 1351.6194724621473
@@ -2936,7 +2936,7 @@
       },
       {
         "data": {
-          "id": "note-uEciI",
+          "id": "note-kRY4I",
           "node": {
             "description": "## 📚 1. Load Data Flow\n\nRun this first! Load Q&A data from a local file and embed it into the vector database.\n",
             "display_name": "",
@@ -2948,7 +2948,7 @@
           "type": "note"
         },
         "dragging": false,
-        "id": "note-uEciI",
+        "id": "note-kRY4I",
         "position": {
           "x": 955.3277857006676,
           "y": 1552.171191793604
@@ -2968,7 +2968,7 @@
       },
       {
         "data": {
-          "id": "OpenAIEmbeddings-cPU27",
+          "id": "OpenAIEmbeddings-kjhT6",
           "node": {
             "base_classes": [
               "Embeddings"
@@ -3444,7 +3444,7 @@
         },
         "dragging": false,
         "height": 319,
-        "id": "OpenAIEmbeddings-cPU27",
+        "id": "OpenAIEmbeddings-kjhT6",
         "position": {
           "x": 1690.9220896443658,
           "y": 1866.483269483266
@@ -3459,7 +3459,7 @@
       },
       {
         "data": {
-          "id": "File-mAtDB",
+          "id": "File-cc20F",
           "node": {
             "base_classes": [
               "Data"
@@ -3610,7 +3610,7 @@
         },
         "dragging": false,
         "height": 230,
-        "id": "File-mAtDB",
+        "id": "File-cc20F",
         "position": {
           "x": 1318.9043936921921,
           "y": 1486.3263312921847
@@ -3625,7 +3625,7 @@
       },
       {
         "data": {
-          "id": "note-9ZLy8",
+          "id": "note-n750Y",
           "node": {
             "description": "### Add theOpenAI API key here ",
             "display_name": "",
@@ -3638,7 +3638,7 @@
         },
         "dragging": false,
         "height": 324,
-        "id": "note-9ZLy8",
+        "id": "note-n750Y",
         "position": {
           "x": 1692.2322233423606,
           "y": 1821.9077961087607
@@ -3646,34 +3646,6 @@
         "positionAbsolute": {
           "x": 1692.2322233423606,
           "y": 1821.9077961087607
-        },
-        "selected": false,
-        "type": "noteNode",
-        "width": 324
-      },
-      {
-        "data": {
-          "id": "note-4iNBi",
-          "node": {
-            "description": "### 💡 Add your OpenAI API key here 👇",
-            "display_name": "",
-            "documentation": "",
-            "template": {
-              "backgroundColor": "transparent"
-            }
-          },
-          "type": "note"
-        },
-        "dragging": false,
-        "height": 324,
-        "id": "note-4iNBi",
-        "position": {
-          "x": 824.1003268813427,
-          "y": 698.6951695764802
-        },
-        "positionAbsolute": {
-          "x": 824.1003268813427,
-          "y": 698.6951695764802
         },
         "selected": false,
         "type": "noteNode",
@@ -3687,7 +3659,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ParseData",
-            "id": "ParseData-lRnXz",
+            "id": "ParseData-wOWS7",
             "name": "text",
             "output_types": [
               "Message"
@@ -3695,7 +3667,7 @@
           },
           "targetHandle": {
             "fieldName": "context",
-            "id": "Prompt-1l8Ym",
+            "id": "Prompt-ESYRH",
             "inputTypes": [
               "Message",
               "Text"
@@ -3703,11 +3675,11 @@
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ParseData-lRnXz{œdataTypeœ:œParseDataœ,œidœ:œParseData-lRnXzœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-1l8Ym{œfieldNameœ:œcontextœ,œidœ:œPrompt-1l8Ymœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
-        "source": "ParseData-lRnXz",
-        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-lRnXzœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-1l8Ym",
-        "targetHandle": "{œfieldNameœ:œcontextœ,œidœ:œPrompt-1l8Ymœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ParseData-wOWS7{œdataTypeœ:œParseDataœ,œidœ:œParseData-wOWS7œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-ESYRH{œfieldNameœ:œcontextœ,œidœ:œPrompt-ESYRHœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "source": "ParseData-wOWS7",
+        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-wOWS7œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-ESYRH",
+        "targetHandle": "{œfieldNameœ:œcontextœ,œidœ:œPrompt-ESYRHœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false
       },
       {
@@ -3716,7 +3688,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Prompt",
-            "id": "Prompt-1l8Ym",
+            "id": "Prompt-ESYRH",
             "name": "prompt",
             "output_types": [
               "Message"
@@ -3724,18 +3696,18 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "OpenAIModel-TLbze",
+            "id": "OpenAIModel-q54rT",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Prompt-1l8Ym{œdataTypeœ:œPromptœ,œidœ:œPrompt-1l8Ymœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-OpenAIModel-TLbze{œfieldNameœ:œinput_valueœ,œidœ:œOpenAIModel-TLbzeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "source": "Prompt-1l8Ym",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-1l8Ymœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "OpenAIModel-TLbze",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œOpenAIModel-TLbzeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Prompt-ESYRH{œdataTypeœ:œPromptœ,œidœ:œPrompt-ESYRHœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-OpenAIModel-q54rT{œfieldNameœ:œinput_valueœ,œidœ:œOpenAIModel-q54rTœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "Prompt-ESYRH",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-ESYRHœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "OpenAIModel-q54rT",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œOpenAIModel-q54rTœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false
       },
       {
@@ -3744,7 +3716,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIModel",
-            "id": "OpenAIModel-TLbze",
+            "id": "OpenAIModel-q54rT",
             "name": "text_output",
             "output_types": [
               "Message"
@@ -3752,18 +3724,18 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-BYXHV",
+            "id": "ChatOutput-waOSM",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-OpenAIModel-TLbze{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-TLbzeœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-BYXHV{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-BYXHVœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "source": "OpenAIModel-TLbze",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-TLbzeœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-BYXHV",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-BYXHVœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-OpenAIModel-q54rT{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-q54rTœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-waOSM{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-waOSMœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "OpenAIModel-q54rT",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-q54rTœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-waOSM",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-waOSMœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false
       },
       {
@@ -3772,7 +3744,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "AstraDB",
-            "id": "AstraDB-teyLT",
+            "id": "AstraDB-V4087",
             "name": "search_results",
             "output_types": [
               "Data"
@@ -3780,18 +3752,18 @@
           },
           "targetHandle": {
             "fieldName": "data",
-            "id": "ParseData-lRnXz",
+            "id": "ParseData-wOWS7",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-AstraDB-teyLT{œdataTypeœ:œAstraDBœ,œidœ:œAstraDB-teyLTœ,œnameœ:œsearch_resultsœ,œoutput_typesœ:[œDataœ]}-ParseData-lRnXz{œfieldNameœ:œdataœ,œidœ:œParseData-lRnXzœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "source": "AstraDB-teyLT",
-        "sourceHandle": "{œdataTypeœ:œAstraDBœ,œidœ:œAstraDB-teyLTœ,œnameœ:œsearch_resultsœ,œoutput_typesœ:[œDataœ]}",
-        "target": "ParseData-lRnXz",
-        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-lRnXzœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-AstraDB-V4087{œdataTypeœ:œAstraDBœ,œidœ:œAstraDB-V4087œ,œnameœ:œsearch_resultsœ,œoutput_typesœ:[œDataœ]}-ParseData-wOWS7{œfieldNameœ:œdataœ,œidœ:œParseData-wOWS7œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "source": "AstraDB-V4087",
+        "sourceHandle": "{œdataTypeœ:œAstraDBœ,œidœ:œAstraDB-V4087œ,œnameœ:œsearch_resultsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParseData-wOWS7",
+        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-wOWS7œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false
       },
       {
@@ -3800,7 +3772,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIEmbeddings",
-            "id": "OpenAIEmbeddings-qhZLs",
+            "id": "OpenAIEmbeddings-jcI7q",
             "name": "embeddings",
             "output_types": [
               "Embeddings"
@@ -3808,18 +3780,18 @@
           },
           "targetHandle": {
             "fieldName": "embedding_model",
-            "id": "AstraDB-teyLT",
+            "id": "AstraDB-V4087",
             "inputTypes": [
               "Embeddings"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OpenAIEmbeddings-qhZLs{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-qhZLsœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-teyLT{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-teyLTœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
-        "source": "OpenAIEmbeddings-qhZLs",
-        "sourceHandle": "{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-qhZLsœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
-        "target": "AstraDB-teyLT",
-        "targetHandle": "{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-teyLTœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OpenAIEmbeddings-jcI7q{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-jcI7qœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-V4087{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-V4087œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "source": "OpenAIEmbeddings-jcI7q",
+        "sourceHandle": "{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-jcI7qœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "AstraDB-V4087",
+        "targetHandle": "{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-V4087œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false
       },
       {
@@ -3828,7 +3800,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-fwrrY",
+            "id": "ChatInput-5Idbp",
             "name": "message",
             "output_types": [
               "Message"
@@ -3836,18 +3808,18 @@
           },
           "targetHandle": {
             "fieldName": "search_input",
-            "id": "AstraDB-teyLT",
+            "id": "AstraDB-V4087",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-fwrrY{œdataTypeœ:œChatInputœ,œidœ:œChatInput-fwrrYœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-AstraDB-teyLT{œfieldNameœ:œsearch_inputœ,œidœ:œAstraDB-teyLTœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "source": "ChatInput-fwrrY",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-fwrrYœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "AstraDB-teyLT",
-        "targetHandle": "{œfieldNameœ:œsearch_inputœ,œidœ:œAstraDB-teyLTœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-5Idbp{œdataTypeœ:œChatInputœ,œidœ:œChatInput-5Idbpœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-AstraDB-V4087{œfieldNameœ:œsearch_inputœ,œidœ:œAstraDB-V4087œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "ChatInput-5Idbp",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-5Idbpœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "AstraDB-V4087",
+        "targetHandle": "{œfieldNameœ:œsearch_inputœ,œidœ:œAstraDB-V4087œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false
       },
       {
@@ -3856,7 +3828,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-fwrrY",
+            "id": "ChatInput-5Idbp",
             "name": "message",
             "output_types": [
               "Message"
@@ -3864,7 +3836,7 @@
           },
           "targetHandle": {
             "fieldName": "question",
-            "id": "Prompt-1l8Ym",
+            "id": "Prompt-ESYRH",
             "inputTypes": [
               "Message",
               "Text"
@@ -3872,11 +3844,11 @@
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-fwrrY{œdataTypeœ:œChatInputœ,œidœ:œChatInput-fwrrYœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-1l8Ym{œfieldNameœ:œquestionœ,œidœ:œPrompt-1l8Ymœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
-        "source": "ChatInput-fwrrY",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-fwrrYœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-1l8Ym",
-        "targetHandle": "{œfieldNameœ:œquestionœ,œidœ:œPrompt-1l8Ymœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-5Idbp{œdataTypeœ:œChatInputœ,œidœ:œChatInput-5Idbpœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-ESYRH{œfieldNameœ:œquestionœ,œidœ:œPrompt-ESYRHœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "source": "ChatInput-5Idbp",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-5Idbpœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-ESYRH",
+        "targetHandle": "{œfieldNameœ:œquestionœ,œidœ:œPrompt-ESYRHœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false
       },
       {
@@ -3885,7 +3857,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SplitText",
-            "id": "SplitText-ArvBT",
+            "id": "SplitText-lckTk",
             "name": "chunks",
             "output_types": [
               "Data"
@@ -3893,18 +3865,18 @@
           },
           "targetHandle": {
             "fieldName": "ingest_data",
-            "id": "AstraDB-grytn",
+            "id": "AstraDB-u0l4o",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-SplitText-ArvBT{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-ArvBTœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}-AstraDB-grytn{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-grytnœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "source": "SplitText-ArvBT",
-        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-ArvBTœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AstraDB-grytn",
-        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-grytnœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SplitText-lckTk{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-lckTkœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}-AstraDB-u0l4o{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-u0l4oœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "source": "SplitText-lckTk",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-lckTkœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AstraDB-u0l4o",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-u0l4oœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false
       },
       {
@@ -3913,7 +3885,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIEmbeddings",
-            "id": "OpenAIEmbeddings-cPU27",
+            "id": "OpenAIEmbeddings-kjhT6",
             "name": "embeddings",
             "output_types": [
               "Embeddings"
@@ -3921,18 +3893,18 @@
           },
           "targetHandle": {
             "fieldName": "embedding_model",
-            "id": "AstraDB-grytn",
+            "id": "AstraDB-u0l4o",
             "inputTypes": [
               "Embeddings"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OpenAIEmbeddings-cPU27{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-cPU27œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-grytn{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-grytnœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
-        "source": "OpenAIEmbeddings-cPU27",
-        "sourceHandle": "{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-cPU27œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
-        "target": "AstraDB-grytn",
-        "targetHandle": "{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-grytnœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OpenAIEmbeddings-kjhT6{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-kjhT6œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-u0l4o{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-u0l4oœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "source": "OpenAIEmbeddings-kjhT6",
+        "sourceHandle": "{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-kjhT6œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "AstraDB-u0l4o",
+        "targetHandle": "{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-u0l4oœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false
       },
       {
@@ -3940,7 +3912,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-mAtDB",
+            "id": "File-cc20F",
             "name": "data",
             "output_types": [
               "Data"
@@ -3948,26 +3920,26 @@
           },
           "targetHandle": {
             "fieldName": "data_inputs",
-            "id": "SplitText-ArvBT",
+            "id": "SplitText-lckTk",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-File-mAtDB{œdataTypeœ:œFileœ,œidœ:œFile-mAtDBœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-SplitText-ArvBT{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-ArvBTœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "source": "File-mAtDB",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-mAtDBœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SplitText-ArvBT",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-ArvBTœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-File-cc20F{œdataTypeœ:œFileœ,œidœ:œFile-cc20Fœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-SplitText-lckTk{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-lckTkœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "source": "File-cc20F",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-cc20Fœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SplitText-lckTk",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-lckTkœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "animated": false,
         "selected": false
       }
     ],
     "viewport": {
-      "x": -205.4303482522414,
-      "y": -305.81509885068954,
-      "zoom": 0.7751988019878888
+      "x": -68.72500248196764,
+      "y": -172.81598176860075,
+      "zoom": 0.7221456507884347
     }
   },
   "description": "An answer engine that answers to questions about master’s programs at Khoury College of Computer Science at Northeastern University.",
