@@ -2,6 +2,10 @@
 
 An answer engine that answers to questions about master’s programs at Khoury College of Computer Science at Northeastern University
 
+## Demo
+
+https://drive.google.com/file/d/1iSFw-xlTEFxJzVF4mJc5yaclfw-QsYNz/view?usp=drive_link
+
 ## Setup Instructions
 
 1. Visit [LangFlow](https://www.langflow.org/) and log in (it's free to use).
